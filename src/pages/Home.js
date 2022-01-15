@@ -58,7 +58,7 @@ const Home = () => {
     };
         
     // sending messages
-    const handleSubmit = async e => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
            
     const user2 = chat.uid
@@ -92,6 +92,7 @@ const Home = () => {
     })
 
     setText("");
+    setImg("")
     };
     
     return (
@@ -107,7 +108,7 @@ const Home = () => {
                     </div>
                     <div className="messages">
                         {msgs.length 
-                        ? msgs.map((msg, i) => <Message key={i} msg={msg} user1={user1}/>)
+                        ? msgs.map((msg, i) => (<Message key={i} msg={msg} user1={user1}/>))
                         : null}
                     </div>
                     <MessageForm 
