@@ -14,7 +14,7 @@ This chat application allows users to interact within each other via text messag
 
 2. Have the ability to change the default profile picture to your own, get notified whenever you receive a new message, send text or image messages, and see when friends or family members are online.
 
-![layout]((README-images/layout_example.png)
+![sign up]((README-images/layout_example.png)
 
 
    
